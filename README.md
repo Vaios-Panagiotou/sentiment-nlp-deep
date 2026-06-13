@@ -9,6 +9,15 @@ Deep learning models for sentiment classification on Twitter data, implemented i
 - Neural architectures including CNNs, RNNs, and hybrid models
 - Evaluation metrics: accuracy, precision, recall, and F1-score
 
+## Contents
+
+- `sentiment-nlp-deep.ipynb`: The main Jupyter notebook containing the complete pipeline:
+  - **Data Loading & Preprocessing**: Handling Twitter-specific data, tokenization, and text cleaning.
+  - **Word Embeddings**: Generation and application of Word2Vec representations.
+  - **Model Architectures**: Definition of PyTorch models (CNN, RNN/LSTM, and hybrid approaches).
+  - **Training & Evaluation**: Training loops, hyperparameter tuning, and performance metrics visualization.
+- `requirements.txt`: Python dependencies required to run the project.
+
 ## Getting Started
 
 ```bash
